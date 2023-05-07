@@ -5,7 +5,7 @@ sc = SparkContext()
 
 '''
 Los programas están realizados de forma que se reciba un archivo de texto, donde en cada
-fila se represente una arista de la forma A,B. Si se introduce de otra forma, habría que 
+fila se represente una arista de la forma A,B o "A","B". Si se introduce de otra forma, habría que 
 modificar simplemente la funcion get_edges a tu gusto.
 '''
 '''
@@ -14,8 +14,8 @@ ordenados lexicograficamente, si no None. (A,B)
 '''
 def get_edges(line):
     edge = line.strip().split(',')
-    n1 = edge[0]
-    n2 = edge[1]
+    n1 = edge[0].strip('"')
+    n2 = edge[1].strip('"')
     if n1 < n2:
          return (n1,n2)
     elif n1 > n2:
