@@ -1,5 +1,4 @@
 # ejercicio_triciclos
-TRICICLOS:
 -triciclo1.py recibe un grafo en un archivo de texto y te devuelve por pantalla sus triciclos
 -triciclo2.py recibe un grafo en varios archivos de texto y te devuelve por pantalla sus triciclos
 -triciclo3.py recibe varios grafos en distintos archivos de texto (uno en cada uno) y te devuelve los triciclos de cada uno de los grafos correspondientes a su archivo.
