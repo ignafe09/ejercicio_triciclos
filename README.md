@@ -6,3 +6,4 @@
 A,B. Si fuera de otra forma habría que hacer un pequeño cambio en el código.
 -Las funciones más importantes están explicadas en el código de triciclo1.py, ya que en los otros 2 códigos muchas
 funciones son analogas.
+-Los archivos .txt son archivos de prueba de grafos que aparecían en el campus.
