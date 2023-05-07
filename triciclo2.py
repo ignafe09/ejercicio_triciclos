@@ -5,8 +5,8 @@ sc = SparkContext()
 
 def get_edges(line):
     edge = line.strip().split(',')
-    n1 = edge[0]
-    n2 = edge[1]
+    n1 = edge[0].strip('"')
+    n2 = edge[1].strip('"')
     if n1 < n2:
          return (n1,n2)
     elif n1 > n2:
